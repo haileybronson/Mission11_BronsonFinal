@@ -13,7 +13,7 @@ namespace Mission11_Bronson.Infrastructure;
     public class PaginationTagHelper : TagHelper 
     {
         private IUrlHelperFactory urlHelperFactory;
-        // test
+        
         public PaginationTagHelper (IUrlHelperFactory temp)
         {
             urlHelperFactory = temp; 
