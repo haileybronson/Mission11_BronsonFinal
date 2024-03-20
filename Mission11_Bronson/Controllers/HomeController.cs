@@ -12,9 +12,14 @@ public class HomeController : Controller
         _repo = temp;
     }
 
-    public IActionResult Index()
+    public IActionResult Index(int pageNum)
     {
-        var bookstoreData = _repo.Books;
+        int pageSize = 10; 
+
+        var bookstoreData = _repo.Books
+            .OrderBy(x=> x.Title)
+            .Skip((pageNum - 1) * pageSize)
+            .Take(pageSize);
         return View(bookstoreData);
     }
 

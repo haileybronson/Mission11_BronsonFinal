@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission11_Bronson")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9539903090b5aaad7acb53904a40abb1473d05a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission11_Bronson")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission11_Bronson")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
