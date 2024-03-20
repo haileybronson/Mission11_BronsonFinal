@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Mission11_Bronson.Models;
+namespace Mission11_Bronson.Models.ViewModels;
 
 public class BooksListViewModel
 {

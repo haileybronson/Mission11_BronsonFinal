@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Mission11_Bronson.Models;
+using Mission11_Bronson.Models.ViewModels;
 
 namespace Mission11_Bronson.Controllers;
 

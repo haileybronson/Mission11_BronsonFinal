@@ -5,8 +5,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
+using Mission11_Bronson.Models.ViewModels;
 
-namespace Mission11_Bronson.Models;
+namespace Mission11_Bronson.Infrastructure;
 
     [HtmlTargetElement("div", Attributes ="page-model")]
     public class PaginationTagHelper : TagHelper 
