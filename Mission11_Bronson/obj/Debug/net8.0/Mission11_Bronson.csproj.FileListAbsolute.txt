@@ -125,3 +125,4 @@
 /Users/haileybronson/Desktop/Mission11_BronsonFinal/Mission11_Bronson/obj/Debug/net8.0/Mission11_Bronson.pdb
 /Users/haileybronson/Desktop/Mission11_BronsonFinal/Mission11_Bronson/obj/Debug/net8.0/Mission11_Bronson.genruntimeconfig.cache
 /Users/haileybronson/Desktop/Mission11_BronsonFinal/Mission11_Bronson/obj/Debug/net8.0/ref/Mission11_Bronson.dll
+/Users/haileybronson/Desktop/Mission11_BronsonFinal/Mission11_Bronson/obj/Debug/net8.0/Mission11_Bronson.sourcelink.json
