@@ -2574,19 +2574,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/haileybronson/.nuget/packages/": {}
+    "/Users/HaileyP/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/haileybronson/Desktop/Mission11_BronsonFinal/Mission11_Bronson/Mission11_Bronson.csproj",
+      "projectUniqueName": "/Users/HaileyP/RiderProjects/Mission11_BronsonFinal/Mission11_Bronson/Mission11_Bronson.csproj",
       "projectName": "Mission11_Bronson",
-      "projectPath": "/Users/haileybronson/Desktop/Mission11_BronsonFinal/Mission11_Bronson/Mission11_Bronson.csproj",
-      "packagesPath": "/Users/haileybronson/.nuget/packages/",
-      "outputPath": "/Users/haileybronson/Desktop/Mission11_BronsonFinal/Mission11_Bronson/obj/",
+      "projectPath": "/Users/HaileyP/RiderProjects/Mission11_BronsonFinal/Mission11_Bronson/Mission11_Bronson.csproj",
+      "packagesPath": "/Users/HaileyP/.nuget/packages/",
+      "outputPath": "/Users/HaileyP/RiderProjects/Mission11_BronsonFinal/Mission11_Bronson/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/haileybronson/.nuget/NuGet/NuGet.Config"
+        "/Users/HaileyP/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2604,11 +2604,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2655,8 +2650,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Access to the path '/Users/HaileyP/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/vuln_index.dat-new' is denied."
+    }
+  ]
 }
