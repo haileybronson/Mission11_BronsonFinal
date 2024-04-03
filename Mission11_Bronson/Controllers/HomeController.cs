@@ -20,9 +20,10 @@ public class HomeController : Controller
         var blah = new BooksListViewModel
         {
             Books = _repo.Books
-            .OrderBy(x=> x.Title)
-            .Skip((pageNum - 1) * pageSize)
-            .Take(pageSize),
+                .Where(x=> x.Title == bookType || bookType == null)
+                .OrderBy(x=> x.Title)
+                .Skip((pageNum - 1) * pageSize)
+                .Take(pageSize),
 
             PaginationInfo = new PaginationInfo
             {

@@ -30,6 +30,11 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute("pagination", "Books/{pageNum}", new {Controller = "Home", action ="Index"});
+//order matters, it will take the first one without looking at the second
+app.MapControllerRoute("pagenumandtype", "{bookType}/{pageNum}", new { Controller = "Home", action = "Index" });
+app.MapControllerRoute("bookType", "{bookType}", new { Controller = "Home", action = "Index", pageNum = 1 });
+app.MapControllerRoute("pagination", "Books/{pageNum}", new {Controller = "Home", action ="Index", pageNum = 1});
+
+
 app.MapDefaultControllerRoute();
 app.Run();
