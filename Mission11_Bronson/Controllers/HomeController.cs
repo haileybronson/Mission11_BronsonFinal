@@ -13,7 +13,7 @@ public class HomeController : Controller
         _repo = temp;
     }
 
-    public IActionResult Index(int pageNum, string bookType)
+    public IActionResult Index(int pageNum, string? bookType)
     {
         int pageSize = 10;
 
@@ -29,8 +29,9 @@ public class HomeController : Controller
             {
                 CurrentPage = pageNum, 
                 ItemsPerPage = pageSize, 
-                TotalItems = _repo.Books.Count()
-            }
+                TotalItems = bookType == null ? _repo.Books.Count() : _repo.Books.Where(x => x.Title == bookType).Count()
+            },
+            CurrentBookType = bookType
         };
             
         return View(blah);
